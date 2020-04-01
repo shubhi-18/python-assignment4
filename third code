@@ -1,0 +1,7 @@
+s=input()
+n=[]
+t=eval(input())
+for i in t:
+    if i.startswith(s):
+        n.append(i)
+print(n)
